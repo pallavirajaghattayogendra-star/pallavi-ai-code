@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+Portfolio architecture: Keep the single-page portfolio in the index route with in-page section navigation, because all requested content forms one continuous personal story.
