@@ -43,7 +43,7 @@ const projects = [
 const certificates = [
   { issuer: "IBM", name: "Fundamentals of Data Science", category: "Data Science", number: "01" },
   { issuer: "Infosys", name: "Programming with C", category: "Programming", number: "02" },
-  { issuer: "Not specified", name: "Cyber Security", category: "Cyber Security", number: "03" },
+  { issuer: "Issuer to be added", name: "Cyber Security", category: "Cyber Security", number: "03" },
 ];
 const journey = ["Programming", "Problem Solving", "Data Analytics", "Data Science", "Artificial Intelligence", "Real-world Projects"];
 const gallery = [
@@ -91,7 +91,7 @@ function Index() {
 
   return <div className="min-w-0 overflow-x-hidden">
     <header className="absolute inset-x-0 top-0 z-30 border-b border-hero-line text-hero-foreground">
-      <div className="mx-auto grid h-[72px] max-w-[1440px] grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 sm:px-8 lg:px-12">
+      <div className="mx-auto grid h-[72px] max-w-[1440px] grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 sm:px-8 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:px-12">
         <a href="#top" className="flex min-w-0 items-center gap-3" aria-label="Pallavi R Y, back to top">
           <span className="flex size-9 shrink-0 items-center justify-center rounded-sm border border-hero-line font-display text-sm font-bold">P.</span>
           <span className="truncate font-display text-sm font-bold tracking-[0.12em]">PALLAVI R Y</span>
